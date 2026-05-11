@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Site Invest Dashboard
 
-## Getting Started
+Tableau de bord utilisateur pour la plateforme Global Investissement.
 
-First, run the development server:
+## 🚀 Fonctionnalités
+
+- **Interface moderne** : Design sombre avec thème jaune
+- **Gestion des investissements** : Plans Starter, Gold et VIP
+- **Dépôts Mobile Money** : Orange Money et MTN Mobile Money
+- **Retraits sécurisés** : Validation et confirmation
+- **Système de parrainage** : Génération de commissions
+- **Notifications en temps réel** : Messages d'erreur et succès
+- **Validation des formulaires** : Contrôles côté client
+- **Responsive design** : Compatible mobile et desktop
+
+## 🛠️ Technologies utilisées
+
+- **Next.js 14** - Framework React
+- **TypeScript** - Typage statique
+- **Tailwind CSS** - Framework CSS
+- **Lucide React** - Icônes modernes
+- **React Hooks** - Gestion d'état
+
+## 📦 Installation
 
 ```bash
+# Cloner le dépôt
+git clone https://github.com/sharokedadjou-png/site-invest-dashboard.git
+
+# Installer les dépendances
+npm install
+
+# Lancer en développement
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Construire pour la production
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎯 Fonctionnalités principales
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Formulaires validés
+- Validation des montants (nombres positifs)
+- Validation des numéros de téléphone (format 9-10 chiffres)
+- Messages d'erreur et de succès
+- Réinitialisation automatique après soumission
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Interface interactive
+- Sélection de plans d'investissement
+- États de focus sur les inputs
+- Animations et transitions fluides
+- Bouton de copie du lien parrainage
 
-## Learn More
+### Sécurité
+- Validation côté client
+- Gestion des erreurs
+- Protection contre les inputs malformés
 
-To learn more about Next.js, take a look at the following resources:
+## 📱 Responsive
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Le dashboard s'adapte parfaitement aux :
+- **Ordinateurs de bureau** (sidebar visible)
+- **Tablettes** (layout adapté)
+- **Téléphones mobiles** (menu hamburger)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🔗 Liens connexes
 
-## Deploy on Vercel
+- [Site principal](https://github.com/sharokedadjou-png/global-investissement)
+- [API Backend](https://github.com/sharokedadjou-png/site-invest-api) (à venir)
+- [Base de données](https://github.com/sharokedadjou-png/site-invest-db) (à venir)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📄 Licence
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Ce projet est privé et appartient à Global Investissement.

@@ -15,6 +15,11 @@ import {
   AlertCircle,
 } from 'lucide-react';
 
+type Notification = {
+  type: 'success' | 'error';
+  message: string;
+} | null;
+
 const investmentPlans = [
   {
     name: 'Starter',
@@ -72,7 +77,7 @@ export default function GlobalInvestissementDashboard() {
   });
 
   // État pour les messages de notification
-  const [notification, setNotification] = useState(null);
+  const [notification, setNotification] = useState<Notification>(null);
   const [copiedToClipboard, setCopiedToClipboard] = useState(false);
 
   // Valider montant
